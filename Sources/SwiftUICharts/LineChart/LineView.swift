@@ -42,7 +42,7 @@ public struct LineView: View {
     public var body: some View {
         GeometryReader{ geometry in
             VStack(alignment: .leading, spacing: 8) {
-                Group{
+/*                Group{
                     if (self.title != nil){
                         Text(self.title!)
                             .font(.title)
@@ -53,7 +53,7 @@ public struct LineView: View {
                             .font(.callout)
                             .foregroundColor(self.colorScheme == .dark ? self.darkModeStyle.legendTextColor : self.style.legendTextColor)
                     }
-                }.offset(x: 0, y: 20)
+                }.offset(x: 0, y: 20) */
                 ZStack{
                     GeometryReader{ reader in
                         Rectangle()
